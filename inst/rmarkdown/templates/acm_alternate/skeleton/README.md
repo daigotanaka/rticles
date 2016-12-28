@@ -14,9 +14,8 @@ To compile all markdown files to pdf
 
 ## Sources
 
-* `acm-sig-alternate.csl`: ACM SIG Proceedings Template.
-  CC-SA Naeem Esfahani and Chris Horn.
-  <https://github.com/citation-style-language/styles>
+* `acm-sig-alternate.csl`: ACM SIG Proceedings Template (Tighter alternate)
+  <http://www.acm.org/sigs/publications/old-proceedings-templates>
 * `shortpaper.latex`: ...
 * `sensys-abstract.cls`: ...
 * ...

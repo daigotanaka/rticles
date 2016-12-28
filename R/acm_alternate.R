@@ -1,4 +1,4 @@
-#' Association for Computing Machinery (ACM) format.
+#' Association for Computing Machinery (ACM) format - Tighter alternate style.
 #'
 #' Format for creating an Association for Computing Machinery (ACM) Tighter Alternate style.
 #' Adapted from
