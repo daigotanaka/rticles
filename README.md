@@ -26,6 +26,8 @@ The **rticles** package provides a suite of custom [R Markdown](http://rmarkdown
 
 - [ACM](http://www.acm.org/) articles
 
+- [ACM](http://www.acm.org/) articles (Tighter alternate style)
+
 - [ACS](http://pubs.acs.org/) articles
 
 - [AMS](https://www.ametsoc.org/) articles
@@ -44,30 +46,30 @@ To use **rticles** from RStudio:
 
 1) Install the latest [RStudio](http://www.rstudio.com/products/rstudio/download/).
 
-2) Install the **rticles** package: 
-    
+2) Install the **rticles** package:
+
     install.packages("rticles", type = "source")
-    
+
 3) Use the **New R Markdown** dialog to create an article from one of the templates:
 
  ![New R Markdown](http://rmarkdown.rstudio.com/images/new_r_markdown.png)
-    
-    
+
+
 ### Using rticles outside of RStudio
 
 1) Install [pandoc](http://johnmacfarlane.net/pandoc/) using the [instructions for your platform](https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md).
 
 2) Install the **rmarkdown** and **rticles** packages:
 
-    
+
     install.packages("rmarkdown")
     devtools::install_github("rstudio/rticles")
-    
-    
+
+
 3) Use the `rmarkdown::draft` function to create articles:
 
-    
+
     rmarkdown::draft("MyJSSArticle.Rmd", template = "jss_article", package = "rticles")
     rmarkdown::draft("MyRJournalArticle", template = "rjournal_article", package = "rticles")
-    
+
 
